@@ -162,16 +162,6 @@ npx jest
 
 ---
 
-## Walkthrough for a screen recording (about 5–10 minutes)
-
-If you need a Loom or similar for submission, this order matches what graders usually look for:
-
-1. Show repo + `.env` keys **names only** (blur secrets).
-2. `npm run seed` and `npm run dev`.
-3. Login as **member**: chat only, no admin.
-4. Login as **admin**: chat + open **Admin Dashboard**.
-5. Send a chat message with integrations on vs off (or show the prompt behaviour difference in one sentence).
-6. In MongoDB, edit **`dashboardconfigs`** (hide a widget or rename a title), refresh the admin page, show the UI change **without** a code edit.
 
 ---
 
@@ -202,11 +192,4 @@ src/
 
 ---
 
-## Submission checklist (assignment)
 
-- [ ] Public repo link or zip
-- [ ] This README (or similar): env, seed, run, **which collection drives the admin UI** (`dashboardconfigs`), assumptions, mocks
-- [ ] Short video or written proof: **MongoDB edit → admin UI change**
-- [ ] Optional: deployed URL on Vercel or Docker instructions above
-
-If something in these instructions doesn’t match what you see locally, double-check `MONGODB_URI` and that seed completed without errors.
